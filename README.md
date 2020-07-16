@@ -1,6 +1,6 @@
 # svg-image-parser
 
-SVG image parser is a parser that uses libxml2 to parse the svg, then store the different elements in a eazy to use data structure.
+SVG image parser is a parser that uses libxml2 to parse the svg, then store the different elements of the svg image in a eazy to use data structure.
 
 ## Prerequisites
 
