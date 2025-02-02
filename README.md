@@ -1,6 +1,6 @@
-# libSVGParse: A C Library for Parsing and Manipulating SVG Images
+# SVG-Inspector: A C Library for Parsing and Manipulating SVG Images
 
-`libSVGParse` is a C library designed to parse Scalable Vector Graphics (SVG) files using `libxml2`, and to represent the SVG data in a user-friendly, easily accessible data structure. This allows developers to quickly extract, analyze, and manipulate SVG elements programmatically.
+`SVG-Inspector` is a C library designed to parse Scalable Vector Graphics (SVG) files using `libxml2`, and to represent the SVG data in a user-friendly, easily accessible data structure. This allows developers to quickly extract, analyze, and manipulate SVG elements programmatically.
 
 ## Features
 
@@ -28,7 +28,7 @@
     ```bash
     make
     ```
-    This will create a shared library file `libsvgparse.so` (or `libsvgparse.dylib` on macOS) in the root folder.
+    This will create a shared library file `SVG-Inspector.so` (or `SVG-Inspector.dylib` on macOS) in the root folder.
 3.  **Set `LD_LIBRARY_PATH` (Linux/macOS):**
     To use the shared dynamic library, you need to tell your system where to find it:
     ```bash
